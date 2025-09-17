@@ -1,7 +1,17 @@
 {
-  "name": "calculator",
-  "displayName": "Calculator",
-  "description": "Simple cSimplealculator for vscode",
+  "name": "vscode-calculator",
+  "displayName": "VSCode calculator",
+  "description": "Scientific calculator for vscode",
+  "icon": "images/calculator-icon.png",
+  "publisher": "Dheovani",
+  "author": {
+    "name": "Dheovani Xavier da Cruz",
+    "email": "dheovani_xavier@outlook.com"
+  },
+  "repository": {
+    "directory": "Calculator",
+    "url": "https://github.com/Dheovani/Calculator/tree/master"
+  },
   "version": "1.0.0",
   "engines": {
     "vscode": "^1.104.0"
