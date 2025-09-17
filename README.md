@@ -14,7 +14,7 @@ No need to switch between apps — calculate directly in your editor. 🚀
 
 ## 📸 Preview
 
-*(Add a screenshot or gif of your calculator running in VS Code here)*
+![Usage](https://github.com/user-attachments/assets/f07a1b55-27ef-4991-a133-080e3223aade)
 
 ## 🎮 Usage
 
