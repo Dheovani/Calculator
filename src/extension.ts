@@ -1,6 +1,5 @@
 import * as vscode from 'vscode';
 import * as fs from 'fs';
-import * as path from 'path';
 
 export function activate(context: vscode.ExtensionContext) {
   const provider = new CalculatorViewProvider(context.extensionUri);
@@ -24,7 +23,7 @@ class CalculatorViewProvider implements vscode.WebviewViewProvider {
   }
 
   private getHtml(): string {
-    const filePath = vscode.Uri.joinPath(this.extensionUri, 'src', 'templates', 'calculator.html');
+    const filePath = vscode.Uri.joinPath(this.extensionUri, 'resources', 'calculator.html');
     const htmlContent = fs.readFileSync(filePath.fsPath, 'utf-8');
 
     return htmlContent;

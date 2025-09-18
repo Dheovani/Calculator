@@ -2,7 +2,7 @@
   "name": "vscode-calculator",
   "displayName": "VSCode calculator",
   "description": "Scientific calculator for vscode",
-  "icon": "images/calculator-icon.png",
+  "icon": "resources/calculator-icon.png",
   "publisher": "Dheovani",
   "author": {
     "name": "Dheovani Xavier da Cruz",
@@ -42,6 +42,9 @@
       ]
     }
   },
+  "files": [
+    "resources/calculator.html"
+  ],
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
