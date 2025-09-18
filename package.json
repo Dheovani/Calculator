@@ -12,7 +12,7 @@
     "directory": "Calculator",
     "url": "https://github.com/Dheovani/Calculator/tree/master"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.104.0"
   },
